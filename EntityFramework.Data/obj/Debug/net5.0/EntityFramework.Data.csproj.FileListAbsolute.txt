@@ -1,0 +1,17 @@
+E:\Projekat iz C#\Projekat\EntityFramework.Data\bin\Debug\net5.0\EntityFramework.Data.deps.json
+E:\Projekat iz C#\Projekat\EntityFramework.Data\bin\Debug\net5.0\EntityFramework.Data.runtimeconfig.json
+E:\Projekat iz C#\Projekat\EntityFramework.Data\bin\Debug\net5.0\EntityFramework.Data.runtimeconfig.dev.json
+E:\Projekat iz C#\Projekat\EntityFramework.Data\bin\Debug\net5.0\EntityFramework.Data.dll
+E:\Projekat iz C#\Projekat\EntityFramework.Data\bin\Debug\net5.0\ref\EntityFramework.Data.dll
+E:\Projekat iz C#\Projekat\EntityFramework.Data\bin\Debug\net5.0\EntityFramework.Data.pdb
+E:\Projekat iz C#\Projekat\EntityFramework.Data\bin\Debug\net5.0\EntityFramework.Domain.dll
+E:\Projekat iz C#\Projekat\EntityFramework.Data\bin\Debug\net5.0\EntityFramework.Domain.pdb
+E:\Projekat iz C#\Projekat\EntityFramework.Data\obj\Debug\net5.0\EntityFramework.Data.csproj.AssemblyReference.cache
+E:\Projekat iz C#\Projekat\EntityFramework.Data\obj\Debug\net5.0\EntityFramework.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekat iz C#\Projekat\EntityFramework.Data\obj\Debug\net5.0\EntityFramework.Data.AssemblyInfoInputs.cache
+E:\Projekat iz C#\Projekat\EntityFramework.Data\obj\Debug\net5.0\EntityFramework.Data.AssemblyInfo.cs
+E:\Projekat iz C#\Projekat\EntityFramework.Data\obj\Debug\net5.0\EntityFramework.Data.csproj.CoreCompileInputs.cache
+E:\Projekat iz C#\Projekat\EntityFramework.Data\obj\Debug\net5.0\EntityFramework.Data.dll
+E:\Projekat iz C#\Projekat\EntityFramework.Data\obj\Debug\net5.0\ref\EntityFramework.Data.dll
+E:\Projekat iz C#\Projekat\EntityFramework.Data\obj\Debug\net5.0\EntityFramework.Data.pdb
+E:\Projekat iz C#\Projekat\EntityFramework.Data\obj\Debug\net5.0\EntityFramework.Data.genruntimeconfig.cache
