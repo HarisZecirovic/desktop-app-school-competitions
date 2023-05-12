@@ -1,0 +1,114 @@
+﻿<Window x:Class="Projekat.Pages.PagesZaUcenike.PocetnaZaUcenike"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekat.Pages.PagesZaUcenike"
+        mc:Ignorable="d"
+        Title="PocetnaZaUcenike" Height="450" Width="800" Loaded="Prikazi_Loaded"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True" Background="Transparent"
+        WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        <Border CornerRadius="10" Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#7be9f6" Offset="0.0"/>
+                    <GradientStop Color="#f083da" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Label x:Name="label" Content="" HorizontalAlignment="Right"/>
+
+
+        </Border>
+            <StackPanel Grid.Row="1" Grid.Column="0">
+                <TextBlock x:Name="textBox"
+                           FontWeight="Light"
+                           FontFamily="helvetica"
+                           FontSize="22"
+                           Foreground="white"
+                           HorizontalAlignment="Center"/>
+                <ListView x:Name="listView" ItemsSource="{Binding korisnici}"  Height="250" Width="380">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn DisplayMemberBinding="{Binding Ime}"  Width="190"  Header="Ime">
+
+                            </GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding Prezime}"  Width="190"  Header="Prezime">
+
+                            </GridViewColumn>
+                            
+
+
+
+                        </GridView>
+                    </ListView.View>
+
+                </ListView>
+                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <Button Width = "100" Height="40" Content="NAPUSTI TIM" Margin="10,30,10,0" Click="Napusti"/>
+                    <Button Width = "100" Height="40" Content="ODJAVI SE" Margin="10,30,10,0" Click="OdjaviSe_Click"/>
+
+
+
+
+
+
+
+                </StackPanel>
+
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="1">
+                <TextBlock 
+                    x:Name="textBox2"
+                           FontWeight="Light"
+                           FontFamily="helvetica"
+                           FontSize="22"
+                           Foreground="white"
+                           HorizontalAlignment="Center"/>
+                <ListView x:Name="listView2" ItemsSource="{Binding takmicenje}"    Height="250" Width="380" MouseDoubleClick="PrikaziBodove">
+                    <ListView.View>
+                        <GridView>
+
+                            <GridViewColumn     Width="95" DisplayMemberBinding="{Binding NazivTakmicenja}"  Header="Naziv Takmicenja">
+
+                            </GridViewColumn>
+                            <GridViewColumn    Width="95" DisplayMemberBinding="{Binding RazredTakmicenja}"  Header="Razred">
+
+                            </GridViewColumn>
+                            <GridViewColumn    Width="95" DisplayMemberBinding="{Binding RokZaPrijavu}"  Header="Rok Za Prijavu">
+
+                            </GridViewColumn>
+                            <GridViewColumn    Width="95" DisplayMemberBinding="{Binding DatumTakmicenja}"  Header="Datum Takmicenja">
+
+                            </GridViewColumn>
+
+
+
+                        </GridView>
+                    </ListView.View>
+
+                </ListView>
+                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Margin="0,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <Button Width = "100" Height="40" Content="Prijava Za Tim" Margin="30,0,10,0" Click="Prijava"/>
+                    <Button Width = "100" Height="40" Content="PREGLED PODATAKA" Margin="30,0,10,0" Click="Podaci_Click"/>
+
+                    <Label x:Name="label1" Content="" HorizontalAlignment="Center"/>
+
+
+
+                </StackPanel>
+            </StackPanel>
+            
+        </Grid>
+    </Grid>
+</Window>

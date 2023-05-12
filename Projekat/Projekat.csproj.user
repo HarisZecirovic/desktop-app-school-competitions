@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\PagesZaSkolu\DodajBelesku.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaSkolu\NapraviTimSkola.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaSkolu\PocetnaSkola.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaSkolu\PregledBeleskeUcenika.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaSkolu\PregledClanovaTima.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaSkolu\PregledPodatakaSkola.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaSkolu\PregledTakmicenja.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaSkolu\PrijavaZaTakmicenjeSkola.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaSkolu\PromeniLozinku.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaUcenike\PocetnaZaUcenike.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaUcenike\PregledBodova.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaUcenike\PregledPodatakaUcenik.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PagesZaUcenike\PrijavaZaTim.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Pocetna\BrojKlupaUcenici.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Pocetna\DodajKlupu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Pocetna\DodajRezultate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Pocetna\OrganizujTakmicenje.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Pocetna\PocetnaAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Pocetna\PregledArhiviranihTakmicenja.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Pocetna\PregledSvihClanova.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Registracije\BiranjeRegistracije.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Registracije\Registracija.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Registracije\Registracija2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ZaboravljenaLozinka.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaSkolu\DodajBelesku.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaSkolu\NapraviTimSkola.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaSkolu\PocetnaSkola.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaSkolu\PregledBeleskeUcenika.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaSkolu\PregledClanovaTima.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaSkolu\PregledPodatakaSkola.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaSkolu\PregledTakmicenja.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaSkolu\PrijavaZaTakmicenjeSkola.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaSkolu\PromeniLozinku.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaUcenike\PocetnaZaUcenike.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaUcenike\PregledBodova.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaUcenike\PregledPodatakaUcenik.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PagesZaUcenike\PrijavaZaTim.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Pocetna\BrojKlupaUcenici.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Pocetna\DodajKlupu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Pocetna\DodajRezultate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Pocetna\OrganizujTakmicenje.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Pocetna\PocetnaAdmin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Pocetna\PregledArhiviranihTakmicenja.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Pocetna\PregledSvihClanova.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Registracije\BiranjeRegistracije.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Registracije\Registracija.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Registracije\Registracija2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ZaboravljenaLozinka.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
